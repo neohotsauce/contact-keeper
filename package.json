@@ -1,0 +1,43 @@
+{
+  "name": "contact-keeper",
+  "version": "1.0.0",
+  "description": "Webapp to save personal contacts",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neohotsauce/contact-keeper.git"
+  },
+  "author": "Ali Haneen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neohotsauce/contact-keeper/issues"
+  },
+  "homepage": "https://github.com/neohotsauce/contact-keeper#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.11"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^6.6.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^1.19.1"
+  }
+}
