@@ -1,0 +1,13 @@
+.navbar {
+  color: white;
+}
+.navbar h2 {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar li a {
+  color: white !important;
+  display: block;
+}
