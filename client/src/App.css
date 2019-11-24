@@ -11,3 +11,19 @@
   color: white !important;
   display: block;
 }
+
+/* animations goes below */
+.item-enter {
+  opacity: 0;
+}
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 100ms ease-out;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 100ms ease-out;
+}
