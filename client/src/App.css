@@ -11,6 +11,11 @@
   color: white !important;
   display: block;
 }
+.alert {
+  width: auto;
+  position: absolute;
+  transition: 1s opacity;
+}
 
 /* animations goes below */
 .item-enter {
