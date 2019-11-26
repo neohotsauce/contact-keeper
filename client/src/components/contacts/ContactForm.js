@@ -6,6 +6,13 @@ const ContactForm = () => {
 
   const { addContact, current, clearCurrent, updateContact } = contactContext;
 
+  const [contact, setContact] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    type: "personal"
+  });
+
   useEffect(() => {
     if (current !== null) {
       setContact(current);
@@ -17,13 +24,6 @@ const ContactForm = () => {
         type: "personal"
       });
   }, [contactContext, current]);
-
-  const [contact, setContact] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    type: "personal"
-  });
 
   const { name, email, phone, type } = contact;
 
@@ -46,7 +46,6 @@ const ContactForm = () => {
       updateContact(contact);
       clearCurrent();
     }
-    addContact(contact);
     setContact({
       name: "",
       email: "",

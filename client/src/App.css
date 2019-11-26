@@ -16,6 +16,10 @@
   position: absolute;
   transition: 1s opacity;
 }
+.bg-active {
+  background-color: #f0f8ff;
+  box-shadow: 1px 1px 10px 3px #92dff3;
+}
 
 /* animations goes below */
 .item-enter {
